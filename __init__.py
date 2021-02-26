@@ -3,7 +3,7 @@ from mycroft import MycroftSkill, intent_file_handler
 class ShoppingList(MycroftSkill):
 	def __init__(self):
 		MycroftSkill.__init__(self)
-		self.todoist_api = None
+		self.todoist_api = 'e206cdf9aa0a4c494b8f97976ddcedce3fa7d5ef'
 		self.parent_project_id = None
 
 	def initialize(self):
